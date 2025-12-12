@@ -1,3 +1,8 @@
+/*
+g++ Task27.cpp -o Task27.exe
+./Task27.exe < in.txt
+*/
+
 #include <stdio.h>
 #include <math.h>
 
