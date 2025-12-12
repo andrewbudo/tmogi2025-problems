@@ -15,17 +15,21 @@ ${(m_{\Delta X})}_{пред}$ - ?
 Воспользуемся теоремой переноса ошибок.
 Для функции $y=f(a,b)$, 
 значение СКП находится по формуле:
+
 $$m_y = \sqrt{\left ( \frac{\partial f}{\partial a}   \right )^2 \cdot m_a^2 + \left ( \frac{\partial f}{\partial b}   \right )^2 \cdot m_b^2}$$
 
 Составим функцию связи искомого значения и известных параметров.  
 
 Найдём горизонтальное проложение:
+
 $$ S = D \cdot cos(v) $$
 
 Найдём значение приращения по оси абсцисс:
+
 $$ \Delta X = S \cdot cos(α) $$
 
 Тогда функция связи будет иметь вид:
+
 $$ \Delta X = D \cdot cos(v) \cdot cos(α) $$
 
 Найдём частные производные по трём параметрам:
@@ -46,9 +50,11 @@ $$m_{\Delta X}^2 = \left ( cos(v) \cdot cos(α) \right )^2 \cdot m_D^2 +
                    \left ( - D \cdot cos(v) \cdot sin(α) \right )^2 \cdot m_α^2$$                   
 -->
 
-$ m_{\Delta X}^2 = \left ( cos(v) \cdot cos(α) \right )^2 \cdot m_D^2 + $  
-$ + \left ( - D \cdot sin(v) \cdot cos(α) \right )^2 \cdot m_v^2 + $  
-$ +\left ( - D \cdot cos(v) \cdot sin(α) \right )^2 \cdot m_α^2 $ 
+$m_{\Delta X}^2 = \left ( cos(v) \cdot cos(α) \right )^2 \cdot m_D^2 +$  
+
+$+ \left ( - D \cdot sin(v) \cdot cos(α) \right )^2 \cdot m_v^2 +$  
+
+$+\left ( - D \cdot cos(v) \cdot sin(α) \right )^2 \cdot m_α^2$ 
 
 $$m_{\Delta X} = \sqrt{\left ( cos(v) \cdot cos(α) \right )^2 \cdot m_D^2 +
                    \left ( - D \cdot sin(v) \cdot cos(α) \right )^2 \cdot m_v^2 +
@@ -64,4 +70,7 @@ $$ {(m_{\Delta X})}_{пред} = {(m_{\Delta X})} \cdot t $$
 $$m_{\Delta X} = t \cdot \sqrt{\left ( cos(v) \cdot cos(α) \right )^2 \cdot m_D^2 +
                    \left ( - D \cdot sin(v) \cdot cos(α) \right )^2 \cdot m_v^2 +
                    \left ( - D \cdot cos(v) \cdot sin(α) \right )^2 \cdot m_α^2}$$  
+
+**Ответ**
+${(m_{\Delta X})}_{пред}$ = 0.07 м
 
